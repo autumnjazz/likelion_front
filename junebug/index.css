@@ -1,0 +1,198 @@
+/* 메뉴 */
+.menu ul{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    background-color: none;
+    border-bottom: 1.5px dotted gray;
+}
+.menu li a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.menu li a:hover{
+    background-color: lightgray;
+}
+/* 메뉴가로기능 */
+.menu ul:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.menu li{
+    float:left;
+    width:auto;
+    font-family: 'Noto Serif KR', serif;
+}
+
+
+/* 메인 */
+.main{
+    content: "";
+    display: block;
+    clear: both;
+    padding: 30px;
+    margin: 30px;
+}
+.main-img{
+    float:left;
+    width: 480px;
+    height: auto;
+}
+.contents{
+    float:none;
+    width: auto;
+    margin-left: 530px;
+}
+.info{
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-family: 'Noto Serif KR', serif;
+}
+h1{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-family: 'Parisienne', cursive;
+    font-size: 55px;
+}
+
+/* 재료방법 */
+.bartending{
+    margin-top: 50px;
+}
+.bartending:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.ingredients{
+    font-family: 'Noto Serif KR', serif;
+    float:left;
+    width: 80%;
+}
+.howto{
+    font-family: 'Noto Serif KR', serif;
+    float:left;
+    width: 16%;
+}
+.howto div{
+    text-align: center;
+}
+.bartending img{
+    max-width: 100%;
+    height: auto;
+    border:none;
+    opacity: 0.75;
+    filter: alpha(opacity=50); /* IE8 및 그 이하 버전용 */
+}
+.bartending p{
+    font-size: 14px;
+}
+.bartending h5{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-family: 'Noto Serif KR', serif;
+}
+/* 재료 */
+.ingredients:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.ingredients div{
+    float:left;
+    width: 19.5%;
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+}
+
+/* 칵테일 */
+.cocktails h1{
+    text-align: center;
+}
+.cocktails img{
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+.cocktails ul{
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+}
+.cocktails ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cocktails li{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* 내소개 */
+.aboutme img{
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    margin: 20px;
+    box-shadow: 5px 5px 6px -2px gray;
+}
+
+.mebox{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+    /* text-align: justify; */
+    font-family: 'Noto Serif KR', serif;
+}
+/* 
+.mebox:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mebox1{
+    float:left;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+ .mebox2{    
+    float: right;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}  */
+
+/* 하단 */
+.footer{
+    border-top: 1.5px dotted gray;
+    font-family: 'Noto Serif KR', serif;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+/* 전체 */
+.menu, .main, .footer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cocktails, .aboutme{
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    text-align: center;
+} 
